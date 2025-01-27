@@ -1,0 +1,215 @@
+.clr-bl{
+    color: #1F2937;
+}
+
+.clr-wh{
+    color: whitesmoke;
+}
+
+.logo{
+    padding-top:30px;
+}
+.times{
+    font-family: "Arial", sans-serif;
+}
+
+.bg-wh {
+    background-color: whitesmoke;
+}
+
+.bg-bl{
+    background-color: #1F2937;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+a:link, a:visited, a:active{
+    color: ghostwhite;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.h {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+    ), url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F4409763.jpg&f=1&nofb=1&ipt=9e9578a8ef84d63285a10abc18834c98c78ad92d54ce59d839018bf0729ae9b0&ipo=images");
+background-repeat: no-repeat;
+}
+.h-bottom{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: flex-start;
+}
+
+.h-top{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-left: 100px;
+padding-right: 100px;
+font-size: 24px;
+}
+
+.logo{
+cursor: pointer;
+font-size: 60px;
+line-height: 10px;
+}
+
+ul{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 50px;
+
+}
+
+.h-intro{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+max-width: 600px;
+text-align: left;
+padding: 0;
+}
+
+.h-img{
+height: 700px;
+width: auto;
+border-radius: 50%;
+object-fit: cover;
+padding-bottom: 30px;
+
+}
+
+.title{
+font-size: 48px;
+}
+
+.title-desc{
+font-size: 24px;
+}
+
+.sign{
+flex-grow: 0;
+background-color: darkred ;
+padding: 18px;
+font-size: 24px;
+border-radius: 6px;
+cursor: pointer;
+}
+
+.sign:focus, .sign:hover{
+background-color: indianred;
+}
+
+.info{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-size: 36px;
+padding: 60px;
+}
+
+.shape{
+height: 300px;
+width: 300px;
+border-radius: 50%;
+}
+
+.img:hover{
+
+}
+
+.info-pair{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+max-width: 200px;
+font-size: 24px;
+}
+.info-four{
+display: flex;
+justify-content: center;
+gap: 180px;
+
+}
+
+.qt{
+background-color: lightgrey;
+display: flex;
+flex-direction: column;
+font-size: 36px;
+padding: 40px;
+}
+
+.author {
+align-self: flex-end;
+padding-right: 300px;
+}
+
+.ad{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin: 200px;
+background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fc5%2F42%2F48%2Fc54248ba513391fd2e3d0037b38f2cb3.jpg&f=1&nofb=1&ipt=11245129d6c1bd103848d0c544486004136f6d393fbd31df330587ab231893e3&ipo=images");
+padding: 60px;
+gap: 90px;
+color: white;
+}
+
+.ad-pair{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+justify-items: center;
+font-size: 24px;
+text-align: left;
+line-height: 0;
+}
+
+.adt{
+font-size: 36px;
+
+}
+
+.one{
+padding-top: 90px;
+max-width: 400px;
+margin: 0;
+}
+
+.one{
+}
+
+.footer{
+    background-color: darkred;
+}
